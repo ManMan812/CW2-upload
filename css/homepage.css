@@ -1,0 +1,66 @@
+/* Set the height and width of the header */
+
+header {
+	height: 15%;
+	width: 100%;
+    background-color: gray;/* Just for demo purposes */
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    border-radius: 25px;
+    border: 2px solid;
+    padding: 10px;
+}
+
+#welcome {
+    text-align:center;
+    border-radius: 25px;
+    border: 2px solid;
+    padding: 3px;
+}
+/* Set the height and width of the navigation */
+nav {
+    height: 100%;
+	width: 26%;
+	float: left;
+	background-color: gray; 
+    border-radius: 10px;
+    border: 2px solid;
+	background-color: gray; /* Just for demo purposes */
+}
+
+dt {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+dd {
+    font-size: 18px;
+}
+
+/* Set the height and width of the page content */
+#content {
+	height: 70%;
+	margin-left: 28%; /* Same as the width of the navigation */
+	margin-right: 0; /* No margin on the right */
+    border-radius: 10px;
+    border: 2px solid;
+    padding: 10px;
+	background-color: gray; /* Just for demo purposes */
+}
+
+#dvideo {
+    text-align:center;
+    width: 50%;
+    height: 50%;
+}
+/* Set the height and width of the footer */
+footer {
+	height: 15%;
+	width: 100%;
+	clear: both;
+	background-color: lightgray; /* Just for demo purposes */
+}
