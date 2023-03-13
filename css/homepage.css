@@ -3,16 +3,20 @@
 header {
 	height: 15%;
 	width: 100%;
-    background-color: gray;/* Just for demo purposes */
 }
 
 #header {
     display: flex;
     justify-content: center;
-    text-align:center;
+    text-align: center;
     border-radius: 25px;
     border: 2px solid;
     padding: 10px;
+}
+
+#map {
+    height: 80%;
+    width: 80%
 }
 
 #welcome {
@@ -21,15 +25,27 @@ header {
     border: 2px solid;
     padding: 3px;
 }
+
+#body1 {
+    display: flex;
+}
+
+nav, #content {
+    flex: 1;
+    padding: 1em;
+    border: solid;
+}
+
 /* Set the height and width of the navigation */
 nav {
-    height: 100%;
-	width: 26%;
+    height: 80%;
+	width: 30%;
+    min-width: 500px;
 	float: left;
-	background-color: gray; 
     border-radius: 10px;
     border: 2px solid;
-	background-color: gray; /* Just for demo purposes */
+    padding: 1%;
+    flex-flow: column;
 }
 
 dt {
@@ -43,13 +59,26 @@ dd {
 
 /* Set the height and width of the page content */
 #content {
-	height: 70%;
-	margin-left: 28%; /* Same as the width of the navigation */
 	margin-right: 0; /* No margin on the right */
+    justify-content: center;
     border-radius: 10px;
     border: 2px solid;
     padding: 10px;
-	background-color: gray; /* Just for demo purposes */
+    min-width: 500px;
+    flex-flow: column;
+}
+
+#content #promotion_information #message {
+    align-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+video {
+    position: relative;
+    left: 35%;
+    width: 130%;
+    height: 130%;
 }
 
 #dvideo {
@@ -62,5 +91,4 @@ footer {
 	height: 15%;
 	width: 100%;
 	clear: both;
-	background-color: lightgray; /* Just for demo purposes */
 }
